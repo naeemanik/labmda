@@ -1,0 +1,177 @@
+ /* Extra small devices (portrait phones, less than 576px) */
+   @media (min-width: 320px){
+    header .banner-hero-area h1 {
+        font-size: 27px;
+        padding: 0; 
+    } 
+ } 
+ @media (max-width: 576px) { 
+    .navbar-nav .nav-item .nav-link::before{
+        top: 0;
+    }
+
+    .navbar-nav .nav-item .nav-link:hover::before{
+        width: 25%;
+    }
+
+    header .banner-hero-area h1 {
+        font-size: 56px;
+        margin-top: 40px;
+        margin-bottom: 25px;
+    }
+
+    header .banner-hero-area img{
+        width: 48%;
+    }
+
+    header .banner-hero-area .btn-cta{
+        margin-left: 15%;
+    }
+
+    .about .hero-area{
+        padding: 0;
+    }
+
+    .about .about-dish {
+        width: 70%;
+        margin-left: 70px;
+    }
+
+    .ingredients .hero-area{
+        padding: 25px 14px;
+        width: 100%;
+    }
+
+    .ingredients h2 {
+        font-size: 36px;
+        margin-bottom: 20px;
+        
+    }
+
+    .review .review-hero-area{
+        width: 100%;
+    }
+
+    footer .footer-item {
+        margin-bottom: 30px;
+    }
+
+    .reservation .reservation-img img{
+        width: 100%;
+        padding: 10px;
+    }
+
+ }
+
+ /* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) { 
+    header .banner-hero-area h1 {
+        font-size: 47px;
+        padding: 0;
+    }
+    header .banner-hero-area img {
+        width: 35%;
+    }
+    header .banner-hero-area .btn-cta {
+        margin-left: 15%;
+    }
+    .ingredients .hero-area {
+        width: 100%;
+        padding: 10px;
+    }
+    .review .review-hero-area {
+        width: 100%;
+    }
+ }
+
+ /* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+    header .banner-hero-area h1 {
+        font-size: 58px;
+        padding: 0;
+    }
+    header .banner-hero-area img {
+        width: 30%;
+    }
+    header .banner-hero-area .btn-cta {
+        margin-left: 25%;
+    }
+    .about h2 {
+        font-size: 26px;
+    }
+    .about p {
+        font-size: 14px;
+    }
+    .about .about-cook {
+         width:auto ; 
+    }
+    .about .about-dish {
+        width: 130%;
+        margin-top: 90px;
+    }
+    .ingredients .hero-area {
+        width: auto; 
+    }
+    .menu .menu-left {
+        margin: 0 ;
+    }
+    .review .review-hero-area {
+        width: auto; 
+    }
+    /* .reservation .hero-area h1 {
+        font-size: 23px;
+    }
+    .reservation .hero-area img {
+        width: 90%;
+    }
+    .reservation .hero-area p {
+        font-size: 14px;
+    }
+    .reservation form .form-btn a {
+        padding: 5px 26px;
+        
+    } */
+
+    footer .footer-item h3 {
+        font-size: 26px;
+    }
+    footer .footer-item .footer-divider {
+        width: 90%;
+    }
+    footer .footer-item p {
+        font-size: 12px;
+    }
+ }
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) { 
+    .navbar-nav .nav-item {
+        padding: 0 ; 
+    }
+    header .banner-hero-area h1 {
+        font-size: 68px;
+        padding: 0; 
+    }
+    header .banner-hero-area .btn-cta {
+        margin-left: 31%;
+    }
+    .ingredients .hero-area {
+        padding: 25px 15px;
+    }
+    .menu .menu-left {
+        margin: 0 30px;
+    }
+    .review .review-hero-area {
+        padding: 35px 10px;
+    }
+    .reservation .hero-area h1 {
+        font-size: 34px;
+    }
+    .reservation form input {
+        padding: 10px;
+        width: 100%;
+    }
+    footer .footer-item p {
+        font-size: 14px;
+    }
+ }
